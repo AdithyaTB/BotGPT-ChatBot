@@ -7,7 +7,6 @@ import Markdown from 'react-markdown'
 import { RiComputerFill } from "react-icons/ri";
 import { GiOpenBook, GiWhiteBook } from 'react-icons/gi';
 import { FaBloggerB, FaPaperPlane } from 'react-icons/fa';
-
 const App = () => {
   const [theme, setTheme] = useState(localStorage.getItem('theme') || 'dark');
   const [screen, setScreen] = useState(1);
